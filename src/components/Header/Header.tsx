@@ -25,8 +25,8 @@ import {
 const navigation = {
   categories: [
     {
-      id: 'rods',
-      name: 'Fishing tackle',
+      id: 'catalogproducts',
+      name: 'Products',
       featured: [
         {
           name: 'New Arrivals',
@@ -87,11 +87,11 @@ const navigation = {
       ],
     },
     {
-      id: 'men',
-      name: 'Men',
+      id: 'support',
+      name: 'Support',
       featured: [
         {
-          name: 'New Arrivals',
+          name: 'Contact Us',
           href: '#',
           imageSrc:
             'https://tailwindui.com/plus/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
@@ -99,7 +99,7 @@ const navigation = {
             'Drawstring top with elastic loop closure and textured interior padding.',
         },
         {
-          name: 'Artwork Tees',
+          name: 'Warranty Information',
           href: '#',
           imageSrc:
             'https://tailwindui.com/plus/img/ecommerce-images/category-page-02-image-card-06.jpg',
@@ -329,12 +329,13 @@ export const Header = () => {
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
-                  <span className="sr-only">Your Company</span>
-                  <img
-                    alt=""
-                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                    className="h-8 w-auto"
-                  />
+                  <span className="sr-only">Catch Craft</span>
+                  <span className="uppercase font-bold text-[#808000] text-2xl block">
+                    Catch
+                  </span>
+                  <span className="uppercase font-bold text-[#808000] text-2xl block">
+                    Craft
+                  </span>
                 </a>
               </div>
 
