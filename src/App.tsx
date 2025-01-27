@@ -1,7 +1,12 @@
-import './App.css';
+import './App.scss';
+import { Banner } from './components/Banner/Banner';
+import { Header } from './components/Header/Header';
 
-function App() {
-  return <h1>GO</h1>;
-}
-
-export default App;
+export const App: React.FC = () => {
+  return (
+    <>
+      <Banner />
+      <Header />
+    </>
+  );
+};
