@@ -329,12 +329,9 @@ export const Header = () => {
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
-                  <span className="sr-only">Catch Craft</span>
-                  <span className="uppercase font-bold text-[#808000] text-2xl block">
-                    Catch
-                  </span>
-                  <span className="uppercase font-bold text-[#808000] text-2xl block">
-                    Craft
+                  <span className="sr-only">Catch & Joy</span>
+                  <span className="uppercase font-bold text-[#81613c] text-2xl">
+                    Catch & Joy
                   </span>
                 </a>
               </div>
@@ -461,10 +458,10 @@ export const Header = () => {
                   >
                     <img
                       alt=""
-                      src="https://tailwindui.com/plus/img/flags/flag-canada.svg"
+                      src="/ukraine.png"
                       className="block h-auto w-5 shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
+                    <span className="ml-3 block text-sm font-medium">UKR</span>
                     <span className="sr-only">, change currency</span>
                   </a>
                 </div>
